@@ -1,0 +1,12 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|imaps|http)://viroyal.*",
+  "name" : "viroyal",
+  "id" : 10000001,
+  "description" : "viroyal",
+  "theme": "viroyal",
+  "logoutType": "BACK_CHANEL",
+  "attributeReleasePolicy" : {
+    "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  }
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height:100%;
+    overflow: hidden;
+}
+.box{
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../image/login_bg.png");
+    background-size: 100% 100%;
+}
+.logo{
+    width: 45%;
+    margin:40px auto;
+}
+
+.content{
+    width: 60%;
+    margin:0 auto;
+    padding: 50px 30px 30px 30px;
+    background-color: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.cont-left{
+    width: 45%;
+    float: left;
+}
+.cont-right{
+    width:30%;
+    margin-right: 15%;
+    float: right;
+}
+
+.cont-right .title{
+    font-size: 33px;
+    letter-spacing: 1px;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.cont-right .bot{
+    font-size: 14px;
+    color: #ccc;
+}
+.cont-right .bot span:last-child{
+    float: right;
+}
+.cp{
+    margin-top: 40px;
+    height: 27px;
+}
+.con-name{
+    position: relative;
+}
+.con-name img{
+    position: absolute;
+    left: 0;
+}
+.con-pwd{
+    position: relative;
+}
+.con-pwd img{
+    position: absolute;
+    left: 0;
+}
+.con-botton{
+    width:100%;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding:10px;
+    margin-top: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgb(43, 68, 192);
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" th:href="@{/css/login.css}">
+    <title>Document</title>
+</head>
+<body>
+<div class="box">
+    <div class="logo">
+        <img th:src="@{/images/logo.png}" alt="" width="100%">
+    </div>
+    <div class="content">
+        <div class="cont-left">
+            <img th:src="@{/images/pic_left.png}" alt="" width="100%">
+        </div>
+        <div class="cont-right">
+            <form action="">
+                <p class="title">综合身份识别平台</p>
+                <p class="con-name cp"><img th:src="@{/images/icon_yhm.png}" alt="" width="20"><input type="text" placeholder="请输入EMIS账号或手机号码"></p>
+                <p class="con-pwd cp"><img th:src="@{images/icon_pw.png}" alt="" width="20"><input type="text" placeholder="请输入密码"></p>
+                <p class="bot cp"><span>找回密码</span><span>帮助</span></p>
+                <button type="submit" class="con-botton">登录</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
